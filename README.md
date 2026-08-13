@@ -23,6 +23,7 @@
 3. При удачной отправке данных появится соответствующее сообщение.
 4. Если пришло противоположное по смыслу сообщение, то откройте "Инструмент разработчика" в браузере вкладка "console". Здесь вы найдёте лог ошибки.
 5. Вот одна из возможных. Ошибка:
+   
 PDOException: PDO::__construct(): The server requested authentication method unknown to the client [caching_sha2_password] in C:\OSPanel\domains\vitravel.local\php\db.php:3
 Stack trace:
 #0 C:\OSPanel\domains\vitravel.local\php\db.php(3): PDO->__construct('mysql:host=loca...', 'vitravel', 'vitravel')
