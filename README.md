@@ -34,7 +34,8 @@ Next PDOException: SQLSTATE[HY000] [2054] The server requested authentication me
 Stack trace:
 #0 C:\OSPanel\domains\vitravel.local\php\db.php(3): PDO->__construct('mysql:host=loca...', 'vitravel', 'vitravel')
 #1 C:\OSPanel\domains\vitravel.local\php\quest.php(107): include('C:\\OSPanel\\doma...')
-5. Ошибка возникает из‑за несовместимости метода аутентификации: сервер MySQL (в OSPanel) использует caching_sha2_password, а клиент (PHP/PDO) его не поддерживает.
+
+6. Ошибка возникает из‑за несовместимости метода аутентификации: сервер MySQL (в OSPanel) использует caching_sha2_password, а клиент (PHP/PDO) его не поддерживает.
 
 Как исправить (выберите один вариант)
 Вариант 1 — сменить метод аутентификации для пользователя в MySQL (рекомендуется для локальной разработки)
