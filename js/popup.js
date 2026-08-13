@@ -174,32 +174,6 @@ popupCloseIconB.on('click', (e) => {
 
 });
 
-
-// popup.on('click', (e) => {
-//     e.preventDefault();
-
-//     const questForm = $('#quest-form');
-
-//     questForm.find('[id="quest-name"]').val('');
-//     questForm.find('[id="quest-email"]').val('');
-//     questForm.find('[id="quest-category"]').val('');
-//     questForm.find('[id="quest-agree"]').val('');
-//     questForm.find('[id="quest-cosdev"]').val('');
-
-//     const questBody = $('.quest__body');
-//     questBody.remove();
-    
-//     if (popup.hasClass('open')) {
-//         popup.removeClass('open');
-//     }
-//     bodyUnlock();
-// });
-
-// $('.popup__body').on('click', (e) => {
-//     e.preventDefault();
-//     e.stopPropagation();
-// });
-
 function bodyLock() {
     const lockPaddingValue =
         window.innerWidth - Number($(body).css('width').slice(0, -2));

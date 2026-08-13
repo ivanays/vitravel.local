@@ -569,8 +569,7 @@ body.lock {
   /* блок1 */
   -webkit-box-shadow: 4px 4px 7px 0px rgba(127, 93, 133, 0.5);
           box-shadow: 4px 4px 7px 0px rgba(127, 93, 133, 0.5);
-  -webkit-backdrop-filter: blur(10px);
-          backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
 }
 .left__offer-text {
   color: var(--, #d4c6e9);
@@ -598,8 +597,7 @@ body.lock {
   /* блок1 */
   -webkit-box-shadow: 4px 4px 7px 0px rgba(127, 93, 133, 0.5);
           box-shadow: 4px 4px 7px 0px rgba(127, 93, 133, 0.5);
-  -webkit-backdrop-filter: blur(10px);
-          backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
 }
 .right__title {
   color: #fff;
@@ -623,8 +621,7 @@ body.lock {
   background: linear-gradient(180deg, rgba(127, 93, 133, 0.26) 48.66%, rgba(127, 93, 133, 0) 100%);
   -webkit-box-shadow: 4px 4px 7px 0px rgba(127, 93, 133, 0.5);
           box-shadow: 4px 4px 7px 0px rgba(127, 93, 133, 0.5);
-  -webkit-backdrop-filter: blur(10px);
-          backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
   color: #d4c6e9;
   font-family: "Montserrat", sans-serif;
   font-size: 20px;
@@ -646,8 +643,7 @@ body.lock {
   background: linear-gradient(180deg, rgba(127, 93, 133, 0.26) 48.66%, rgba(127, 93, 133, 0) 100%);
   -webkit-box-shadow: 4px 4px 7px 0px rgba(127, 93, 133, 0.5);
           box-shadow: 4px 4px 7px 0px rgba(127, 93, 133, 0.5);
-  -webkit-backdrop-filter: blur(10px);
-          backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
   color: #d4c6e9;
   font-family: "Montserrat", sans-serif;
   font-size: 13px;
@@ -913,8 +909,7 @@ body.lock {
   top: 50px;
   left: calc((100vw - 1290px) / 2 + 26px + 360px);
   background: #39416d;
-  -webkit-backdrop-filter: blur(12.5px);
-          backdrop-filter: blur(12.5px);
+  backdrop-filter: blur(12.5px);
   padding: 40px;
   z-index: 5;
 }
@@ -1038,8 +1033,7 @@ body.lock {
   top: calc((100vh - 190px) / 2);
   left: calc((100vw - 1290px) / 2 + 26px + 360px);
   background: #39416d;
-  -webkit-backdrop-filter: blur(12.5px);
-          backdrop-filter: blur(12.5px);
+  backdrop-filter: blur(12.5px);
   padding: 40px;
   z-index: 5;
 }
@@ -1218,8 +1212,7 @@ body.lock {
     top: calc((100vh - 190px) / 2);
     left: calc((100vw - 1290px) / 2 + 26px + 360px);
     background: #39416d;
-    -webkit-backdrop-filter: blur(12.5px);
-            backdrop-filter: blur(12.5px);
+    backdrop-filter: blur(12.5px);
     padding: 40px;
     z-index: 5;
   }
