@@ -1,0 +1,48 @@
+body {
+    overflow-y: scroll;
+    overflow-x: none;
+    scrollbar-color: $c-2 $c-1;
+    scrollbar-width: thin;
+}
+body::-webkit-scrollbar {
+    width: 6px; /* ширина для вертикального скролла */
+    height: 6px;
+    overflow-y: scroll;
+    overflow-x: none;
+    background-color: $c-1;
+}
+body::-webkit-scrollbar-thumb {
+    overflow-y: scroll;
+    overflow-x: none;
+    background: $c-2;
+}
+html,
+body {
+    font-family: $ff-Montserrat;
+    font-weight: 500;
+    font-size: 20px;
+    letter-spacing: 2px;
+    // line-height: 1.5;
+    color: $c-5;
+    background-color: $c-1;
+    background-image: url(../../img/background-image/1614571238_5-p-gorod-na-belom-fone-6\ 1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    padding: 0;
+    margin: 0;
+}
+
+// h1 {
+//     font-family: $ff-Montserrat;
+//     font-weight: 600;
+//     font-size: 32px;
+//     text-align: center;
+// }

@@ -1,0 +1,499 @@
+@media (max-width: 768px) {
+    body {
+        background-image: url(../../img/background-image/1614571238_5-p-gorod-na-belom-fone-6\ 1.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: top 80px right -410px;
+    }
+    .wrapper {
+        width: 288px;
+    }
+    .header {
+        width: 288px;
+        height: 86px;
+        margin-bottom: 20px;
+        // .header__inner
+        &__inner {
+        }
+        // .header__logo
+        &__logo {
+        }
+        // .header__partners
+        &__partners {
+            width: 174px;
+            height: 26px;
+        }
+    }
+    .logo {
+        // .logo__img
+        &__img {
+            width: 78px;
+            height: 23px;
+        }
+    }
+    .partners {
+        width: 174px;
+        height: 26px;
+        // .partners__inner
+        &__inner {
+        }
+        // .partners__partner
+        &__partner {
+        }
+        // .partners__img
+        &__img {
+        }
+        // .partners__img1
+        &__img1 {
+            width: 24px;
+            height: 19px;
+        }
+        // .partners__img2
+        &__img2 {
+            width: 47px;
+            height: 17px;
+        }
+        // .partners__img3
+        &__img3 {
+            width: 26px;
+            height: 19px;
+        }
+        // .partners__img4
+        &__img4 {
+            width: 32px;
+            height: 26px;
+        }
+    }
+    .main {
+        width: 288px;
+        // .main__title-fon
+        &__title-fon {
+            width: 288px;
+            height: 111px;
+            background-image: url(../../img/background-image/Rectangle\ 36-1.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: top -5px right 5px;
+            position: relative;
+            margin-bottom: 40px;
+        }
+        // .main__title
+        &__title {
+            width: 288px;
+            height: 105px;
+            position: absolute;
+            top: 6px;
+            left: 0;
+            color: #d4c6e9;
+            font-family: Montserrat;
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 30px;
+            letter-spacing: 1.1px;
+        }
+        // .main__title-span
+        &__title-span {
+            color: #d4c6e9;
+            text-align: center;
+            font-family: Ubuntu;
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 30px; /* 150% */
+            letter-spacing: 1.1px;
+        }
+        // .main__body
+        &__body {
+            width: 288px;
+            height: 1096px;
+        }
+        // .main__inner
+        &__inner {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+        }
+        // .main__left
+        &__left {
+        }
+        // .main__right
+        &__right {
+        }
+    }
+    .left {
+        width: 288px;
+        height: 662px;
+        padding: 20px;
+        // .left__body
+        &__body {
+        }
+        // .left__offer
+        &__offer {
+        }
+        // .left__offer-text
+        &__offer-text {
+            color: #d4c6e9;
+            font-family: Montserrat;
+            font-size: 15px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 22px; /* 146.667% */
+            letter-spacing: 0.825px;
+        }
+    }
+    .right {
+        width: 288px;
+        height: 394px;
+        // .right__body
+        &__body {
+        }
+        // .right__title
+        &__title {
+        }
+        // .right__form
+        &__form {
+        }
+    }
+    .form {
+        // .form__signup
+        &__signup {
+        }
+        // .form__input
+        &__input {
+        }
+        // .form__input-text
+        &__input-text {
+        }
+        // .form__input-email
+        &__input-email {
+        }
+        // .form__select
+        &__select {
+        }
+        // .form__option
+        &__option {
+        }
+        // .form__items
+        &__items {
+        }
+        // .form__item
+        &__item {
+        }
+        // .form__checkbox-inner
+        &__checkbox-inner {
+        }
+        // .form__checkbox-body
+        &__checkbox-body {
+        }
+        // .form__checkbox-label
+        &__checkbox-label {
+        }
+        // .form__checkbox-input
+        &__checkbox-input {
+        }
+        // .form__checkbox-fake
+        &__checkbox-fake {
+        }
+        // .form__checkbox-name
+        &__checkbox-name {
+        }
+        // .form__btn
+        &__btn {
+            width: 100%;
+            height: 40px;
+        }
+        // .form__btn-signup
+        &__btn-signup {
+        }
+    }
+    .footer {
+        width: 288px;
+        height: 230px;
+        // .footer__contacts
+        &__contacts {
+        }
+        // .footer__copyright
+        &__copyright {
+        }
+    }
+    .contacts {
+        width: 288px;
+        height: 130px;
+        margin-bottom: 40px;
+        // .contacts__inner
+        &__inner {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: flex-start;
+        }
+        // .contacts__phones
+        &__phones {
+        }
+        // .contacts__emails
+        &__emails {
+        }
+    }
+    .phones {
+        width: 288px;
+        height: 80px;
+        // .phones__inner
+        &__inner {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: flex-start;
+        }
+        // .phones__phone
+        &__phone {
+        }
+        // .phones__link
+        &__link {
+        }
+        // .phones__icon
+        &__icon {
+        }
+        // .phones__icon-phone
+        &__icon-phone {
+        }
+        // .phones__span
+        &__span {
+        }
+        // .phones__icon-whatsapp
+        &__icon-whatsapp {
+        }
+    }
+    .emails {
+        // .emails__inner
+        &__inner {
+        }
+        // .emails__email
+        &__email {
+        }
+        // .emails__link
+        &__link {
+        }
+        // .emails__icon
+        &__icon {
+        }
+        // .emails__icon-email
+        &__icon-email {
+        }
+        // .emails__span
+        &__span {
+            color: var(--, #d4c6e9);
+            font-family: Montserrat;
+            font-size: 15px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 30px; /* 200% */
+            letter-spacing: 0.825px;
+            text-decoration-line: underline;
+        }
+    }
+    .copyright {
+        // .copyright__content
+        &__content {
+        }
+        // .copyright__span
+        &__span {
+            color: #b2a6be;
+            font-family: Montserrat;
+            font-size: 13px;
+            font-style: normal;
+            font-weight: 300;
+            line-height: 30px; /* 230.769% */
+            letter-spacing: 0.715px;
+        }
+        // .copyright__span-vitravel
+        &__span-vitravel {
+            opacity: 0.8;
+            color: #b2a6be;
+            font-family: Ubuntu;
+            font-size: 13px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 30px;
+            letter-spacing: 0.715px;
+        }
+    }
+    .popup {
+        // .popup__body
+        &__body {
+            position: relative;
+            width: calc(100vw);
+            height: calc(100vh);
+            top: 0;
+            left: 0;
+            padding: 15px;
+            overflow: hidden;
+        }
+        // .popup__close
+        &__close {
+            position: absolute;
+            top: 15px;
+            right: 15px;
+        }
+        // .popup__close-link
+        &__close-link {
+        }
+        // .popup__close-icon
+        &__close-icon {
+        }
+        // .popup__header
+        &__header {
+        }
+        // .popup__title
+        &__title {
+            margin-top: 40px;
+        }
+        // .popup__content
+        &__content {
+        }
+        // .popup__quest
+        &__quest {
+        }
+        .quest {
+            // .quest__inner
+            &__inner {
+                width: calc(100vw - 30px);
+                height: calc(100vh - 140px);
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                align-items: center;
+            }
+            // .quest__wrapper
+            &__wrapper {
+            }
+            // .quest__body
+            &__body {
+                width: 100%;
+                height: calc(100vh - 200px);
+                overflow-y: scroll;
+                overflow-x: hidden;
+                scrollbar-color: #b2a6be #39416d;
+                scrollbar-width: thin;
+            }
+            &__body::-webkit-scrollbar {
+                width: 4px; /* ширина для вертикального скролла */
+                height: 4px;
+                background-color: #39416d;
+            }
+            &__body::-webkit-scrollbar-thumb {
+                background: #b2a6be;
+            }
+            // .quest__fieldset
+            &__quest__fieldset {
+            }
+            // .quest__legend
+            &__legend {
+                color: #d4c6e9;
+                font-family: Montserrat;
+                font-size: 15px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: 22px; /* 146.667% */
+                letter-spacing: 0.825px;
+            }
+            // .quest__input
+            &__input {
+            }
+            // .quest__radio
+            &__radio {
+            }
+            // .quest__label
+            &__label {
+                color: #d4c6e9;
+                font-family: Montserrat;
+                font-size: 13px;
+                font-style: normal;
+                font-weight: 300;
+                line-height: 30px; /* 230.769% */
+                letter-spacing: 0.715px;
+            }
+            // .quest__text
+            &__text {
+                width: 100%;
+            }
+            // .quest__btn
+            &__btn {
+                width: 268px;
+                height: 40px;
+                color: #d4c6e9;
+                text-align: center;
+                font-family: Montserrat;
+                font-size: 17px;
+                font-style: normal;
+                font-weight: 600;
+                line-height: 30px; /* 176.471% */
+                letter-spacing: 0.935px;
+            }
+            // .quest__btn-send
+            &__btn-send {
+            }
+        }
+    }
+    .popup {
+        // .popup__body-b
+        &__body-b {
+            position: relative;
+            width: calc(100vw);
+            height: calc(100vh);
+            top: 0;
+            left: 0;
+            padding: 15px;
+            overflow: hidden;
+        }
+        // .popup__close
+        &__close {
+            position: absolute;
+            top: 15px;
+            right: 15px;
+        }
+        // .popup__close-link
+        &__close-link {
+        }
+        // .popup__close-icon
+        &__close-icon {
+        }
+        // .popup__header
+        &__header {
+        }
+        // .popup__title
+        &__title {
+        }
+        // .popup__content
+        &__content {
+        }
+        // .popup__wrapper-b
+        &__wrapper-b {
+        }
+        // .popup__info
+        &__info {
+            text-align: center;
+            color: #d4c6e9;
+            font-family: $ff-Montserrat;
+            font-size: 17px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 30px; /* 176.471% */
+            letter-spacing: 0.935px;
+        }
+        // .popup__number
+        &__number {
+        }
+    }
+    .open {
+    }
+    .close-popup {
+    }
+}

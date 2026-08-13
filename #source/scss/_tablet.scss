@@ -1,0 +1,403 @@
+@media (max-width: 1290px) {
+    body {
+        background-image: url(../../img/background-image/1614571238_5-p-gorod-na-belom-fone-6\ 1.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: top 100px right -140px;
+    }
+    .wrapper {
+        width: 630px;
+    }
+    .header {
+        width: 630px;
+        // .header__inner
+        &__inner {
+        }
+        // .header__logo
+        &__logo {
+        }
+        // .header__partners
+        &__partners {
+        }
+    }
+    .logo {
+        // .logo__img
+        &__img {
+        }
+    }
+    .partners {
+        // .partners__inner
+        &__inner {
+        }
+        // .partners__partner
+        &__partner {
+        }
+        // .partners__img
+        &__img {
+        }
+        // .partners__img1
+        &__img1 {
+        }
+        // .partners__img2
+        &__img2 {
+        }
+        // .partners__img3
+        &__img3 {
+        }
+        // .partners__img4
+        &__img4 {
+        }
+    }
+    .main {
+        width: 630px;
+        // .main__title-fon
+        &__title-fon {
+            width: 630px;
+            height: 130px;
+            background-image: url(../../img/background-image/Rectangle\ 36-1.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: top 35px right -30px;
+            position: relative;
+            margin-bottom: 70px;
+        }
+        // .main__title
+        &__title {
+            width: 630px;
+            height: 84px;
+            position: absolute;
+            top: 50px;
+            left: 0;
+            color: #d4c6e9;
+            font-family: Montserrat;
+            font-size: 30px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 45px;
+            letter-spacing: 1.65px;
+        }
+        // .main__title-span
+        &__title-span {
+            color: #d4c6e9;
+            text-align: center;
+            font-family: Ubuntu;
+            font-size: 30px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 45px; /* 150% */
+            letter-spacing: 1.65px;
+        }
+        // .main__body
+        &__body {
+            width: 630px;
+            height: 1018px;
+        }
+        // .main__inner
+        &__inner {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+        }
+        // .main__left
+        &__left {
+        }
+        // .main__right
+        &__right {
+        }
+    }
+    .left {
+        width: 630px;
+        height: 538px;
+        padding: 30px;
+        // .left__body
+        &__body {
+        }
+        // .left__offer
+        &__offer {
+        }
+        // .left__offer-text
+        &__offer-text {
+            color: #d4c6e9;
+            font-family: Montserrat;
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 30px; /* 150% */
+            letter-spacing: 1.1px;
+        }
+    }
+    .right {
+        width: 370px;
+        height: 410px;
+        // .right__body
+        &__body {
+        }
+        // .right__title
+        &__title {
+        }
+        // .right__form
+        &__form {
+        }
+    }
+    .form {
+        // .form__signup
+        &__signup {
+        }
+        // .form__input
+        &__input {
+        }
+        // .form__input-text
+        &__input-text {
+        }
+        // .form__input-email
+        &__input-email {
+        }
+        // .form__select
+        &__select {
+        }
+        // .form__option
+        &__option {
+        }
+        // .form__items
+        &__items {
+        }
+        // .form__item
+        &__item {
+        }
+        // .form__checkbox-inner
+        &__checkbox-inner {
+        }
+        // .form__checkbox-body
+        &__checkbox-body {
+        }
+        // .form__checkbox-label
+        &__checkbox-label {
+        }
+        // .form__checkbox-input
+        &__checkbox-input {
+        }
+        // .form__checkbox-fake
+        &__checkbox-fake {
+        }
+        // .form__checkbox-name
+        &__checkbox-name {
+        }
+        // .form__btn
+        &__btn {
+            color: #d4c6e9;
+            text-align: center;
+            font-family: Montserrat;
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 30px; /* 150% */
+            letter-spacing: 1.1px;
+        }
+        // .form__btn-signup
+        &__btn-signup {
+        }
+    }
+    .footer {
+        width: 630px;
+        height: 240px;
+        // .footer__contacts
+        &__contacts {
+        }
+        // .footer__copyright
+        &__copyright {
+        }
+    }
+    .contacts {
+        width: 630px;
+        height: 80px;
+        margin-bottom: 70px;
+        // .contacts__inner
+        &__inner {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+        }
+        // .contacts__phones
+        &__phones {
+        }
+        // .contacts__emails
+        &__emails {
+        }
+    }
+    .phones {
+        width: 260px;
+        height: 80px;
+        // .phones__inner
+        &__inner {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+        }
+        // .phones__phone
+        &__phone {
+        }
+        // .phones__link
+        &__link {
+        }
+        // .phones__icon
+        &__icon {
+        }
+        // .phones__icon-phone
+        &__icon-phone {
+        }
+        // .phones__span
+        &__span {
+        }
+        // .phones__icon-whatsapp
+        &__icon-whatsapp {
+        }
+    }
+    .emails {
+        // .emails__inner
+        &__inner {
+        }
+        // .emails__email
+        &__email {
+        }
+        // .emails__link
+        &__link {
+        }
+        // .emails__icon
+        &__icon {
+        }
+        // .emails__icon-email
+        &__icon-email {
+        }
+        // .emails__span
+        &__span {
+        }
+    }
+    .copyright {
+        // .copyright__content
+        &__content {
+        }
+        // .copyright__span
+        &__span {
+        }
+        // .copyright__span-vitravel
+        &__span-vitravel {
+        }
+    }
+    .popup {
+        // .popup__body
+        &__body {
+        }
+        // .popup__close
+        &__close {
+        }
+        // .popup__close-link
+        &__close-link {
+        }
+        // .popup__close-icon
+        &__close-icon {
+        }
+        // .popup__header
+        &__header {
+        }
+        // .popup__title
+        &__title {
+        }
+        // .popup__content
+        &__content {
+        }
+        // .popup__quest
+        &__quest {
+        }
+    }
+    .quest {
+        // .quest__inner
+        &__inner {
+        }
+        // .quest__wrapper
+        &__wrapper {
+        }
+        // .quest__body
+        &__body {
+        }
+        // .quest__legend
+        &__legend {
+        }
+        // .quest__radio
+        &__radio {
+        }
+        // .quest__label
+        &__label {
+        }
+        // .quest__text
+        &__text {
+        }
+        // .quest__btn
+        &__btn {
+        }
+        // .quest__btn-send
+        &__btn-send {
+        }
+    }
+    .popup {
+        // .popup__body-b
+        &__body-b {
+            position: relative;
+            width: 570px;
+            height: 190px;
+            // height: calc(100vh - 528px);
+            top: calc((100vh - 190px) / 2);
+            left: calc((100vw - 1290px) / 2 + 26px + 360px);
+            background: #39416d;
+            backdrop-filter: blur(12.5px);
+            padding: 40px;
+            z-index: 5;
+        }
+        // .popup__close
+        &__close {
+        }
+        // .popup__close-link
+        &__close-link {
+        }
+        // .popup__close-icon
+        &__close-icon {
+        }
+        // .popup__header
+        &__header {
+        }
+        // .popup__title
+        &__title {
+        }
+        // .popup__content
+        &__content {
+        }
+        // .popup__wrapper-b
+        &__wrapper-b {
+        }
+        // .popup__info
+        &__info {
+            text-align: center;
+            color: #d4c6e9;
+            font-family: $ff-Montserrat;
+            font-size: 17px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 30px; /* 176.471% */
+            letter-spacing: 0.935px;
+        }
+        // .popup__number
+        &__number {
+        }
+    }
+    .open {
+    }
+    .close-popup {
+    }
+}
